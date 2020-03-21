@@ -1,5 +1,4 @@
 /** @jsx jsx */
-import React from "react";
 import { Flex, Button, useColorMode, jsx } from "theme-ui";
 
 const Header = () => {

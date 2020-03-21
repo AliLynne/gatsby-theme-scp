@@ -1,5 +1,4 @@
 /** @jsx jsx */
-import React from "react";
 import { Card as ThemeCard, Text, jsx } from "theme-ui";
 
 const Card = props => {
