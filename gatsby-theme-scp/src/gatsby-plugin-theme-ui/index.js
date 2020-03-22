@@ -36,7 +36,8 @@ export default {
     header: t => `linear-gradient(${t.colors.black}, ${t.colors.faded})`
   },
   shadows: {
-    default: "0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.1)"
+    default: "0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.1)",
+    red: "0 2px 6px rgba(102,0,0,.5)"
   },
   text: {
     heading: {
@@ -63,12 +64,19 @@ export default {
       boxShadow: "default",
       border: "solid 1px #888880",
       borderRadius: 2
+    },
+    red: {
+      backgroundColor: "card",
+      color: "black",
+      boxShadow: "red",
+      border: "solid 1px #888880",
+      borderRadius: 2
     }
   },
   layout: {
     main: {
       flexGrow: 2,
-      p: 4
+      py: 4
     },
     page: {
       justifyContent: 'space-between'
