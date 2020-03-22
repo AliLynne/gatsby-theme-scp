@@ -1,6 +1,9 @@
 var plugins = [{
       plugin: require('/Users/AliLynne/Documents/projects/scp/gatsby-theme-scp/node_modules/gatsby-plugin-theme-ui/gatsby-ssr'),
       options: {"plugins":[]},
+    },{
+      plugin: require('/Users/AliLynne/Documents/projects/scp/gatsby-theme-scp/node_modules/gatsby-plugin-google-fonts/gatsby-ssr'),
+      options: {"plugins":[],"fonts":["Baumans","Nanum Gothic:400,700,800","Verdana","Helvetica"]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [
